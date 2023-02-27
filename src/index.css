@@ -1,0 +1,160 @@
+html * {
+    /* border: 1px solid green; */
+    font-family: Helvetica;
+}
+
+body {
+    margin: 0;
+}
+
+/* App */
+
+.signup-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    border: none;
+}
+
+/* Header */
+
+.header {
+    background-color: #1F2937;
+    padding: 0 150px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.header p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-content {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+.header-content img {
+    object-fit: contain;
+}
+.header-left {
+    margin-right: 50px;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.navbar h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.navbar a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 20px;
+}
+.navbar-links {
+    margin-left: auto;
+    display: flex;
+}
+
+/* Body */
+
+.body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.body h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 25px;
+    margin: 0 150px;
+}
+.cell-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    margin: 0 150px;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 200px;
+}
+.cell-image {
+    border: 5px solid #3882F6;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Quote */
+
+.quote {
+    padding: 0 150px;
+    background-color: #E5E7EB;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+.quote-content {
+    padding-top: 100px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-author {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
+
+/* InfoBox */
+
+.infobox {
+    background-color: #3882F6;
+    color: white;
+    margin: 0 150px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    margin-bottom: 50px;
+}
+.infobox-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.infobox .signup-button {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0 100px;
+}
+@media (max-width: 1200px) {
+    .infobox {
+        flex-direction: column;
+    }
+    .infobox .signup-button {
+        margin-top: 15px;
+    }
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
